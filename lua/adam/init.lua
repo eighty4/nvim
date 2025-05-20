@@ -1,6 +1,9 @@
 require("adam.remap")
 require("adam.lazy")
 
+vim.opt.title = true
+vim.opt.titlestring = [[%t – %{fnamemodify(getcwd(), ':t')}]]
+
 vim.opt.laststatus = 3
 
 vim.opt.guicursor = ""
